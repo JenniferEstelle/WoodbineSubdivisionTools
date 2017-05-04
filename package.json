@@ -1,0 +1,17 @@
+{
+  "name": "garbagepickup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {
+    "moment": "^2.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
