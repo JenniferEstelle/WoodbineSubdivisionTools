@@ -3,7 +3,7 @@
     var app = angular.module('app', []);
 
     app.config(function($sceDelegateProvider) {
-        $sceDelegateProvider.resourceUrlBlacklist([]);
+        $sceDelegateProvider.resourceUrlWhitelist(['**']);
     });
 
     // controller
