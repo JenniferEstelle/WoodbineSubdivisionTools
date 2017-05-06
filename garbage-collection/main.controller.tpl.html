@@ -1,0 +1,13 @@
+<div>
+    <div>
+        For the week of <span class="trash-collection-emphasis">{{main.startOfWeekDisplay}}</span> trash will be collected on <span class="trash-collection-emphasis">{{main.trashDay}}</span>.
+    </div>
+    <div ng-if="main.hasHolidayThisWeek">
+        <div ng-if="main.trashDayPushedBack">
+            Collection has been pushed back due to <span class="trash-collection-emphasis">{{main.trashExceptionReason}}</span>.
+        </div>
+        <div ng-if="!main.trashDayPushedBack">
+            The <span class="trash-collection-emphasis">{{main.trashExceptionReason}}</span> holiday did not have an impact on collection this week.
+        </div>
+    </div>
+</div>
