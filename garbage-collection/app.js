@@ -69,10 +69,6 @@
 
         var exceptionList = [
             {
-                trashDay: '5/4/2017',
-                holiday: 'President\'s Day'
-            },
-            {
                 trashDay: '6/2/2017',
                 holiday: 'Memorial Day'
             },
